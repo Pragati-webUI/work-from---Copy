@@ -1,0 +1,1022 @@
+html,
+body {
+  overflow-x: hidden;
+  font-family: "Poppins", sans-serif !important;
+}
+* {
+  padding: 1px;
+  margin: -4px;
+}
+.container {
+  margin-top: 80px;
+}
+h3 {
+  color: #007f61;
+  margin: 30vh auto;
+  text-align: center;
+  position: relative;
+}
+h3::before {
+  content: "";
+  height: 3px;
+  width: 50vw;
+  background-color: #c8c8c8;
+  position: absolute;
+  top: 50%;
+  right: 150px;
+  z-index: -3;
+}
+h3::after {
+  content: "";
+  height: 3px;
+  width: 50vw;
+  background-color: #c8c8c8;
+  position: absolute;
+  top: 50%;
+  left: 150px;
+  z-index: -2;
+}
+span {
+  background: white;
+  padding: 0 20px;
+}
+.card {
+  margin-left: 150px;
+  margin-right: 147px;
+  margin-top: 26px;
+}
+.card-body {
+  margin-left: 73px;
+  margin-top: -83px;
+}
+.bottom {
+  margin-top: 17px;
+  height: 109px;
+}
+.radio {
+  margin-left: 40px;
+  margin-top: 56px;
+}
+.radio1 {
+  margin-left: 2.8rem;
+  margin-top: 56px;
+}
+.card-text1 {
+  margin-top: -78px;
+  margin-left: 52rem;
+}
+.card-text40 {
+  margin-top: 11px;
+  margin-left: 52rem;
+}
+.card-titleMost {
+  margin-top: -92px;
+  margin-left: 49rem;
+  font-size: 27px;
+  color: #007f61;
+}
+.dkk {
+  background-color: #f4fbf9;
+}
+.free h5 {
+  font-size: 1.4rem;
+  margin-left: 149px;
+  margin-top: 39px;
+  color: #007f61;
+}
+.free h4 {
+  font-size: 1.5rem;
+  margin-left: 59.5rem;
+  margin-top: -34px;
+}
+.Powered {
+  margin-left: 964px;
+  width: 193px;
+  font-size: 21px;
+  margin-top: 18px;
+}
+.row-cols-2 {
+  margin-top: -84px;
+}
+.dropbtn {
+  background-color: #3498db;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover,
+.dropbtn:focus {
+  background-color: #2980b9;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown a:hover {
+  background-color: #ddd;
+}
+
+.show {
+  display: block;
+}
+.d-grid {
+  background-color: #007f61;
+  width: 63rem;
+  margin-left: 149px;
+  height: 60px;
+  border-radius: 4px;
+  margin-top: 32px;
+}
+.btnn {
+  display: inline-block;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 20px;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.color {
+  margin-left: 93px;
+}
+.fa-solid,
+.fas {
+  font-weight: 900;
+  margin-left: 67px;
+}
+.size {
+  margin-left: 109px;
+}
+
+.accordion-wrapper .card + .card {
+  margin-top: 20px;
+}
+
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active,
+.accordion:hover {
+  background-color: #ccc;
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 380px) and (min-width: 300px) {
+  .container {
+    margin-top: 130px;
+  }
+  .card-text:last-child {
+    font-size: 16px;
+  }
+  .card-body {
+    margin-left: 28px;
+    margin-top: -44px;
+  }
+  .card-title {
+    margin-top: -2px;
+    font-size: 16px;
+  }
+  .card-text1 {
+    margin-left: 15.5rem;
+    margin-top: -50px;
+    font-size: 18px;
+  }
+  .card {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .card-text40 {
+    margin-top: 2px;
+    margin-left: 243px;
+    font-size: 19px;
+  }
+  .free h5 {
+    font-size: 1rem;
+    margin-left: 11px;
+    margin-top: 29px;
+  }
+  .card-titleMost {
+    margin-top: -63px;
+    margin-left: 214px;
+    font-size: 16px;
+  }
+  .free h4 {
+    font-size: 1.1rem;
+    margin-left: 197px;
+    margin-top: -26px;
+  }
+  .radio1 {
+    margin-left: 0.8rem;
+    margin-top: 31px;
+  }
+  .radio {
+    margin-left: 15px;
+    margin-top: 33px;
+  }
+  .pair40 {
+    margin-top: -51px;
+  }
+  .d-grid {
+    width: 21rem;
+    margin-left: 9px;
+    height: 60px;
+    margin-top: 20px;
+  }
+  .Powered {
+    margin-left: 12.9rem;
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 419px) and (min-width: 380px) {
+  .container {
+    margin-top: 130px;
+  }
+  .card-text:last-child {
+    font-size: 16px;
+  }
+  .card-body {
+    margin-left: 28px;
+    margin-top: -44px;
+  }
+  .card-title {
+    margin-top: -2px;
+    font-size: 16px;
+  }
+  .card-text1 {
+    margin-left: 15.5rem;
+    margin-top: -50px;
+    font-size: 18px;
+  }
+  .card {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .card-text40 {
+    margin-top: 2px;
+    margin-left: 243px;
+    font-size: 19px;
+  }
+  .free h5 {
+    font-size: 1rem;
+    margin-left: 11px;
+    margin-top: 29px;
+  }
+  .card-titleMost {
+    margin-top: -63px;
+    margin-left: 214px;
+    font-size: 16px;
+  }
+  .free h4 {
+    font-size: 1.1rem;
+    margin-left: 238px;
+    margin-top: -26px;
+  }
+  .radio1 {
+    margin-left: 0.8rem;
+    margin-top: 31px;
+  }
+  .radio {
+    margin-left: 15px;
+    margin-top: 33px;
+  }
+  .pair40 {
+    margin-top: -51px;
+  }
+  .d-grid {
+    width: 23.8rem;
+    margin-left: 9px;
+    height: 60px;
+    margin-top: 20px;
+  }
+  .Powered {
+    margin-left: 251px;
+    font-size: 15px;
+    margin-top: 20px;
+    width: 138px;
+    margin-bottom: 1rem;
+  }
+  h3::before {
+    right: 175px;
+  }
+  h3::after {
+    left: 175px;
+  }
+  .container {
+    width: 95%;
+  }
+}
+@media only screen and (max-width: 395px) and (min-width: 390px) {
+  .container {
+    margin-top: 130px;
+  }
+  .card-text:last-child {
+    font-size: 16px;
+  }
+  .card-body {
+    margin-left: 28px;
+    margin-top: -44px;
+  }
+  .card-title {
+    margin-top: -2px;
+    font-size: 16px;
+  }
+  .card-text1 {
+    margin-left: 15.5rem;
+    margin-top: -50px;
+    font-size: 18px;
+  }
+  .card {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .card-text40 {
+    margin-top: 2px;
+    margin-left: 243px;
+    font-size: 19px;
+  }
+  .free h5 {
+    font-size: 1rem;
+    margin-left: 11px;
+    margin-top: 29px;
+  }
+  .card-titleMost {
+    margin-top: -63px;
+    margin-left: 214px;
+    font-size: 16px;
+  }
+  .free h4 {
+    font-size: 1.1rem;
+    margin-left: 212px;
+    margin-top: -26px;
+  }
+  .radio1 {
+    margin-left: 0.8rem;
+    margin-top: 31px;
+  }
+  .radio {
+    margin-left: 15px;
+    margin-top: 33px;
+  }
+  .pair40 {
+    margin-top: -51px;
+  }
+  .d-grid {
+    width: 21.8rem;
+    margin-left: 9px;
+    height: 60px;
+    margin-top: 20px;
+  }
+  .Powered {
+    margin-left: 221px;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 1rem;
+  }
+  h3::before {
+    right: 165px;
+  }
+  h3::after {
+    left: 165px;
+  }
+}
+@media only screen and (max-width: 365px) and (min-width: 360px) {
+  .radio1 {
+    margin-left: 7px;
+  }
+  .free h4 {
+    font-size: 1rem;
+  }
+  .d-grid {
+    width: 20.4rem;
+    margin-left: 9px;
+    height: 60px;
+    margin-top: 20px;
+  }
+  .Powered {
+    margin-left: 199px;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 1rem;
+  }
+}
+@media only screen and (max-width: 825px) and (min-width: 800px) {
+  .container {
+    margin-top: 130px;
+  }
+  .card-text:last-child {
+    font-size: 16px;
+  }
+  .card-body {
+    margin-left: 28px;
+    margin-top: -44px;
+  }
+  .card-title {
+    margin-top: -2px;
+    font-size: 16px;
+  }
+  .card-text1 {
+    margin-left: 37.5rem;
+    margin-top: -50px;
+    font-size: 18px;
+  }
+  .card {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .card-text40 {
+    margin-top: 2px;
+    margin-left: 595px;
+    font-size: 19px;
+  }
+  .free h5 {
+    font-size: 1rem;
+    margin-left: 11px;
+    margin-top: 29px;
+  }
+  .card-titleMost {
+    margin-top: -63px;
+    margin-left: 567px;
+    font-size: 16px;
+  }
+  .free h4 {
+    font-size: 1.1rem;
+    margin-left: 542px;
+    margin-top: -26px;
+  }
+  .radio1 {
+    margin-left: 0.8rem;
+    margin-top: 31px;
+  }
+  .radio {
+    margin-left: 15px;
+    margin-top: 33px;
+  }
+  .pair40 {
+    margin-top: -51px;
+  }
+  h3::before {
+    right: 274px;
+  }
+  h3::after {
+    left: 274px;
+  }
+  .d-grid {
+    width: 42.4rem;
+    margin-left: 9px;
+    height: 60px;
+    margin-top: 20px;
+  }
+  .Powered {
+    margin-left: 613px;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 1rem;
+  }
+}
+@media only screen and (max-width: 773px) and (min-width: 700px) {
+  .container {
+    margin-top: 130px;
+  }
+  .card-text:last-child {
+    font-size: 16px;
+  }
+  .card-body {
+    margin-left: 28px;
+    margin-top: -44px;
+  }
+  .card-title {
+    margin-top: -2px;
+    font-size: 16px;
+  }
+  .card-text1 {
+    margin-left: 37.5rem;
+    margin-top: -50px;
+    font-size: 18px;
+  }
+  .card {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .card-text40 {
+    margin-top: 2px;
+    margin-left: 595px;
+    font-size: 19px;
+  }
+  .free h5 {
+    font-size: 1rem;
+    margin-left: 11px;
+    margin-top: 29px;
+  }
+  .card-titleMost {
+    margin-top: -63px;
+    margin-left: 567px;
+    font-size: 16px;
+  }
+  .free h4 {
+    font-size: 1.1rem;
+    margin-left: 542px;
+    margin-top: -26px;
+  }
+  .Powered {
+    margin-left: 34.5rem;
+    font-size: 15px;
+  }
+  .radio1 {
+    margin-left: 0.8rem;
+    margin-top: 31px;
+  }
+  .radio {
+    margin-left: 15px;
+    margin-top: 33px;
+  }
+  .pair40 {
+    margin-top: -51px;
+  }
+  .d-grid {
+    width: 42.8rem;
+    margin-left: 9px;
+    height: 60px;
+    margin-top: 20px;
+  }
+  .Powered {
+    margin-left: 555px;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 1rem;
+  }
+  h3::before {
+    right: 301px;
+  }
+  h3::after {
+    left: 301px;
+  }
+}
+@media only screen and (max-width: 917px) and (min-width: 900px) {
+  .container {
+    margin-top: 130px;
+  }
+  .card-text:last-child {
+    font-size: 16px;
+  }
+  .card-body {
+    margin-left: 28px;
+    margin-top: -44px;
+  }
+  .card-title {
+    margin-top: -2px;
+    font-size: 16px;
+  }
+  .card-text1 {
+    margin-left: 37.5rem;
+    margin-top: -50px;
+    font-size: 18px;
+  }
+  .card {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .card-text40 {
+    margin-top: 2px;
+    margin-left: 595px;
+    font-size: 19px;
+  }
+  .free h5 {
+    font-size: 1rem;
+    margin-left: 11px;
+    margin-top: 29px;
+  }
+  .card-titleMost {
+    margin-top: -63px;
+    margin-left: 567px;
+    font-size: 16px;
+  }
+  .free h4 {
+    font-size: 1.1rem;
+    margin-left: 542px;
+    margin-top: -26px;
+  }
+  .Powered {
+    margin-left: 34.5rem;
+    font-size: 15px;
+  }
+  .radio1 {
+    margin-left: 0.8rem;
+    margin-top: 31px;
+  }
+  .radio {
+    margin-left: 15px;
+    margin-top: 33px;
+  }
+  .pair40 {
+    margin-top: -51px;
+  }
+  h3::before {
+    right: 229px;
+  }
+  h3::after {
+    left: 229px;
+  }
+  .d-grid {
+    width: 42.8rem;
+    margin-left: 9px;
+    height: 60px;
+    margin-top: 20px;
+  }
+  .Powered {
+    margin-left: 555px;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 1rem;
+  }
+}
+@media only screen and (max-width: 545px) and (min-width: 500px) {
+  .container {
+    margin-top: 130px;
+  }
+  .card-text:last-child {
+    font-size: 16px;
+  }
+  .card-body {
+    margin-left: 28px;
+    margin-top: -44px;
+  }
+  .card-title {
+    margin-top: -2px;
+    font-size: 16px;
+  }
+  .card-text1 {
+    margin-left: 25.5rem;
+    margin-top: -50px;
+    font-size: 18px;
+  }
+  .card {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .card-text40 {
+    margin-top: 2px;
+    margin-left: 403px;
+    font-size: 19px;
+  }
+  .free h5 {
+    font-size: 1rem;
+    margin-left: 11px;
+    margin-top: 29px;
+  }
+  .card-titleMost {
+    margin-top: -63px;
+    margin-left: 374px;
+    font-size: 16px;
+  }
+  .free h4 {
+    font-size: 1.1rem;
+    margin-left: 363px;
+    margin-top: -26px;
+  }
+  .Powered {
+    margin-left: 23.5rem;
+    font-size: 15px;
+  }
+  .radio1 {
+    margin-left: 0.8rem;
+    margin-top: 31px;
+  }
+  .radio {
+    margin-left: 15px;
+    margin-top: 33px;
+  }
+  .pair40 {
+    margin-top: -51px;
+  }
+  h3::before {
+    right: 237px;
+  }
+  h3::after {
+    left: 237px;
+  }
+  .d-grid {
+    width: 500px;
+    margin-left: 9px;
+    height: 60px;
+    margin-top: 20px;
+  }
+  .Powered {
+    margin-left: 371px;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 1rem;
+  }
+}
+@media only screen and (max-width: 285px) and (min-width: 200px) {
+  .container {
+    margin-top: 130px;
+  }
+  .card-text:last-child {
+    font-size: 16px;
+  }
+  .card-body {
+    margin-left: 28px;
+    margin-top: -44px;
+  }
+  .card-title {
+    margin-top: -2px;
+    font-size: 16px;
+  }
+  .card-text1 {
+    margin-left: 11rem;
+    margin-top: -50px;
+    font-size: 14px;
+  }
+  .card {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .card-text40 {
+    margin-top: 15px;
+    margin-left: 175px;
+    font-size: 14px;
+  }
+  .free h5 {
+    font-size: 10px;
+    margin-left: 11px;
+    margin-top: 29px;
+  }
+  .card-titleMost {
+    margin-top: -63px;
+    margin-left: 158px;
+    font-size: 11px;
+  }
+  .free h4 {
+    font-size: 10px;
+    margin-left: 162px;
+    margin-top: -19px;
+  }
+  .Powered {
+    margin-left: 10.8rem;
+    font-size: 8px;
+  }
+  .radio1 {
+    margin-left: 0.8rem;
+    margin-top: 31px;
+  }
+  .radio {
+    margin-left: 15px;
+    margin-top: 33px;
+  }
+  .pair40 {
+    margin-top: -51px;
+  }
+  h3::before {
+    right: 106px;
+    top: 68%;
+  }
+  h3::after {
+    left: 106px;
+    top: 68%;
+  }
+  span {
+    font-size: 13px;
+  }
+  .d-grid {
+    width: 242px;
+    margin-left: 9px;
+    height: 60px;
+    margin-top: 20px;
+  }
+  .Powered {
+    margin-left: 113px;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 1rem;
+  }
+  .color {
+    margin-left: 42px;
+    font-size: 11px;
+  }
+}
+@media only screen and (max-width: 1029px) and (min-width: 1000px) {
+  .card-text:last-child {
+    font-size: 16px;
+  }
+  .container {
+    max-width: 817px;
+    margin-left: 21px;
+    margin-top: 112px;
+  }
+  .card-title {
+    margin-top: -2px;
+    font-size: 16px;
+  }
+  .card-text1 {
+    margin-left: 29rem;
+    margin-top: -50px;
+    font-size: 14px;
+  }
+  .card {
+    margin-left: 128px;
+    width: 528px;
+  }
+  .card-text40 {
+    margin-top: 15px;
+    margin-left: 462px;
+    font-size: 14px;
+  }
+  .free h5 {
+    font-size: 14px;
+    margin-left: 129px;
+    margin-top: 29px;
+  }
+  .card-titleMost {
+    margin-top: -63px;
+    margin-left: 445px;
+    font-size: 11px;
+  }
+  .free h4 {
+    font-size: 14px;
+    margin-left: 542px;
+    margin-top: -24px;
+  }
+  .Powered {
+    margin-left: 551px;
+    font-size: 12px;
+  }
+  .radio1 {
+    margin-left: 0.8rem;
+    margin-top: 31px;
+  }
+  .radio {
+    margin-left: 15px;
+    margin-top: 33px;
+  }
+  .pair40 {
+    margin-top: -51px;
+  }
+  h3::before {
+    right: 280px;
+    top: 68%;
+  }
+  h3::after {
+    left: 128px;
+    top: 68%;
+  }
+  span {
+    font-size: 13px;
+    margin-left: -133px;
+  }
+  .card-body {
+    margin-left: 28px;
+    margin-top: -45px;
+  }
+  .d-grid {
+    width: 33.8rem;
+    margin-left: 123px;
+    height: 60px;
+    margin-top: 20px;
+  }
+  .Powered {
+    margin-left: 526px;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 1rem;
+  }
+  .color {
+    margin-left: 39px;
+    font-size: 11px;
+    width: 727px;
+  }
+}
+@media only screen and (max-width: 1280px) and (min-width: 1200px) {
+  .card-text:last-child {
+    font-size: 16px;
+  }
+  .container {
+    margin-top: 112px;
+  }
+  .card-title {
+    margin-top: -2px;
+    font-size: 16px;
+  }
+  .card-text1 {
+    margin-left: 29rem;
+    margin-top: -50px;
+    font-size: 14px;
+  }
+  .card {
+    margin-left: 86px;
+    width: 528px;
+  }
+  .card-text40 {
+    margin-top: 15px;
+    margin-left: 462px;
+    font-size: 14px;
+  }
+  .free h5 {
+    font-size: 14px;
+    margin-left: 87px;
+    margin-top: 29px;
+  }
+  .card-titleMost {
+    margin-top: -63px;
+    margin-left: 445px;
+    font-size: 11px;
+  }
+  .free h4 {
+    font-size: 14px;
+    margin-left: 499px;
+    margin-top: -24px;
+  }
+  .Powered {
+    margin-left: 507px;
+    font-size: 12px;
+  }
+  .radio1 {
+    margin-left: 0.8rem;
+    margin-top: 31px;
+  }
+  .radio {
+    margin-left: 15px;
+    margin-top: 33px;
+  }
+  .pair40 {
+    margin-top: -51px;
+  }
+  h3::before {
+    right: 440px;
+    top: 68%;
+  }
+  h3::after {
+    left: 38px;
+    top: 68%;
+  }
+  span {
+    font-size: 13px;
+    margin-left: -399px;
+  }
+  .card-body {
+    margin-left: 28px;
+    margin-top: -45px;
+  }
+  .d-grid {
+    width: 537px;
+    margin-left: 80px;
+    height: 60px;
+    margin-top: 20px;
+  }
+  .Powered {
+    margin-left: 480px;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 1rem;
+  }
+  .color {
+    margin-left: 39px;
+    font-size: 11px;
+    width: 727px;
+  }
+}
